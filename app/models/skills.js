@@ -70,8 +70,11 @@ async function getDetailedSkills() {
 
             // Gabungkan data skill dengan proyek terkait
             result.push({
-                skill: skill,
-                projects: filteredProjects, // Daftar proyek terkait dengan skill ini
+                name        : skill.name,
+                competence  : skill.competence,
+                icon        : skill.symbol,
+                projects    : filteredProjects
+
             });
         }
 
