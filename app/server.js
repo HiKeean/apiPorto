@@ -2,12 +2,12 @@ require('dotenv').config();
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const db = require('./models/index.js');
-const logger = require('morgan');
-const logger2 = require('./config/logger');
+// // const logger = require('morgan');
+// // // const logger2 = require('./config/logger');
 
 const app = express();
 
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -34,5 +34,5 @@ require('./router/router.js')(app);
 // Start the server directly
 app.listen(port, () => {
     console.log(`${title} is running on ${baseUrl}`);
-    logger2.info(`Server started on ${port}`);
+    // logger2.info(`Server started on ${port}`);
 });

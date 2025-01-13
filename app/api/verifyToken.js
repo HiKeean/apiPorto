@@ -1,5 +1,5 @@
 const axios = require('axios');
-const logger2 = require('../config/logger');
+// const logger2 = require('../config/logger');
 
 module.exports = {
     async verifyToken(req, res, next) {
@@ -31,7 +31,7 @@ module.exports = {
                     timeout: 5000, // Timeout opsional
                 }
             );
-            logger2.info(response.status)
+            // logger2.info(response.status)
             if (response.status === 200) {
                 next();
                 // return res.status(200).send({
