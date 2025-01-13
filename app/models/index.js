@@ -11,7 +11,7 @@ if (!dbConfig) {
 }
 
 // Membuat koneksi ke database menggunakan konfigurasi
-const connection = mysql.createConnection({
+const connection = mysql.createPool({
   host: dbConfig.host,
   user: dbConfig.username,
   password: dbConfig.password,
@@ -30,4 +30,4 @@ connection.connect((err) => {
 });
 
 // Ekspor koneksi untuk digunakan di file lain
-module.exports = connection;
+module.exports = connection.promise();
