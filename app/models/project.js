@@ -31,6 +31,7 @@ async function getProjectImages(id)
     }
 }
 
+
 async function getAllProject() {
     try {
         const projects = await getAll(); // Ambil semua project dari database

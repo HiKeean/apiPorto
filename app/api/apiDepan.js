@@ -2,6 +2,7 @@ const text = require('../models/text');
 const abtme = require('../models/abtme');
 const profile = require('../models/profile');
 const project = require('../models/project');
+const skill = require('../models/skills');
 
 module.exports = {
     async getProfile() {
@@ -61,6 +62,23 @@ module.exports = {
         try {
             const projects = await project.getAllProject();
             const jsonTexts = JSON.stringify(projects); 
+            return res.status(200).json({
+                success: true,
+                data: JSON.parse(jsonTexts),  
+            });
+        } catch (error) {
+            return res.status(500).json({
+                success: false,
+                message: "Failed to fetch texts",
+                error: error.message || error,
+            });
+        }
+    },
+    async getAllSkills(req,res)
+    {
+        try {
+            const skills = await skill.getDetailedSkills();
+            const jsonTexts = JSON.stringify(skills); 
             return res.status(200).json({
                 success: true,
                 data: JSON.parse(jsonTexts),  

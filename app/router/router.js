@@ -11,6 +11,7 @@ module.exports = function (app) {
     app.get('/api/pi',
 		apiDepanController.getPI);
     app.get('/api/getportfolio', apiDepanController.getAllProject);
+    app.get('/api/getskills', apiDepanController.getAllSkills);
 
     app.post('/api/portfolio/insertProject',
       verifyTokenController.verifyToken, apiPostController.insertProject
