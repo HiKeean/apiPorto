@@ -1,9 +1,8 @@
 const db = require('./index'); // Mengimpor koneksi database dari index.js
 
-
 async function getAll() {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM skills');
+        const [rows] = await db.query('SELECT * FROM skills');
         return rows; 
     } catch (error) {
         throw error;
@@ -13,7 +12,7 @@ async function getAll() {
 async function getProjectSkills(id)
 {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM skillsProject WHERE idSkills = ?', [id]);
+        const [rows] = await db.query('SELECT * FROM skillsProject WHERE idSkills = ?', [id]);
         return rows; 
     } catch (error) {
         throw error;
@@ -49,7 +48,7 @@ async function insertProject(req) {
 async function checkSkills(id) {
     try {
         // Query untuk mengecek apakah id ada di tabel skills
-        const [rows] = await db.promise().query('SELECT * FROM skills WHERE id = ?', [id]);
+        const [rows] = await db.query('SELECT * FROM skills WHERE id = ?', [id]);
         // Jika ada hasil (rows) berarti id valid
         if (rows.length > 0) {
             return true;  // id valid

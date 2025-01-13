@@ -3,7 +3,7 @@ const db = require('./index'); // Mengimpor koneksi database dari index.js
 
 async function getAll() {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM Text');
+        const [rows] = await db.query('SELECT * FROM Text');
         return rows; 
     } catch (error) {
         console.error('Error fetching profiles:', error);

@@ -4,7 +4,7 @@ const skillsModel = require('./skills.js');
 
 async function getAll() {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM project');
+        const [rows] = await db.query('SELECT * FROM project');
         return rows; 
     } catch (error) {
         throw new Error(error);
@@ -14,7 +14,7 @@ async function getAll() {
 async function getProjectSkills(id)
 {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM skillsProject WHERE idProject = ?', [id]);
+        const [rows] = await db.query('SELECT * FROM skillsProject WHERE idProject = ?', [id]);
         return rows; 
     } catch (error) {
         throw new Error(error)
@@ -24,7 +24,7 @@ async function getProjectSkills(id)
 async function getProjectImages(id)
 {
     try {
-        const [rows] = await db.promise().query('SELECT * FROM imgProject WHERE idProject = ?', [id]);
+        const [rows] = await db.query('SELECT * FROM imgProject WHERE idProject = ?', [id]);
         return rows; 
     } catch (error) {
         throw new Error(error)
@@ -84,7 +84,7 @@ async function insertProject(req) {
         `;
 
         // Eksekusi query dengan parameter
-        const [result] = await db.promise().execute(query, [name, category, project_date, link, desc]);
+        const [result] = await db.execute(query, [name, category, project_date, link, desc]);
         return result;
         // return false;
     } catch (error) {
