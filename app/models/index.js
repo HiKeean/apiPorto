@@ -12,15 +12,12 @@ if (!dbConfig) {
 
 // Membuat koneksi ke database menggunakan konfigurasi
 const connection = mysql.createConnection({
-  host: "mysql-1f0961d0-keeansportodb.b.aivencloud.com",
-  user: "avnadmin",
-  password: process.env.DB_PASSWORD,
-  database: "portofolio_dev",
-  port: "15009", // Default port MySQL adalah 3306
-  ssl: {
-    "require": true,
-    "rejectUnauthorized": false
-  }// Tambahkan SSL jika diperlukan
+  host: dbConfig.host,
+  user: dbConfig.username,
+  password: dbConfig.password,
+  database: dbConfig.database,
+  port: dbConfig.port || 3306, // Default port MySQL adalah 3306
+  ssl: dbConfig.dialectOptions?.ssl || null, // Tambahkan SSL jika diperlukan
 });
 
 // Cek koneksi ke database

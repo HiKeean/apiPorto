@@ -25,9 +25,16 @@ module.exports = {
   production: {
     "username": "avnadmin",
     "password": process.env.DB_PASSWORD,
-    "database": "portofolio",
+    "database": "portofolio_dev",
     "host": "mysql-1f0961d0-keeansportodb.b.aivencloud.com",
-    "dialect": "mysql"
+    "port"    : "15009",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
 
