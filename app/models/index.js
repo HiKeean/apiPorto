@@ -20,14 +20,14 @@ const connection = mysql.createPool({
   ssl: dbConfig.dialectOptions?.ssl || null, // Tambahkan SSL jika diperlukan
 });
 
-// Cek koneksi ke database
-connection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to the database:', err.stack);
-    return;
-  }
-  console.log(`Connected to the ${env} database`);
-});
+// // Cek koneksi ke database
+// connection.connect((err) => {
+//   if (err) {
+//     console.error('Error connecting to the database:', err.stack);
+//     return;
+//   }
+//   console.log(`Connected to the ${env} database`);
+// });
 
 // Ekspor koneksi untuk digunakan di file lain
 module.exports = connection.promise();
