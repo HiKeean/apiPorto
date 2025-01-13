@@ -1,0 +1,439 @@
+2025-01-07T10:32:38.074Z [INFO]: 2357
+2025-01-10T02:36:24.867Z [INFO]: 2357
+2025-01-10T02:48:21.534Z [INFO]: 2357
+2025-01-10T02:53:52.351Z [INFO]: 2357
+2025-01-10T02:54:01.683Z [INFO]: [object Object]
+2025-01-10T02:54:33.672Z [INFO]: 2357
+2025-01-10T02:54:37.610Z [INFO]: 200
+2025-01-10T02:56:50.840Z [INFO]: 2357
+2025-01-10T02:56:56.505Z [INFO]: undefined
+2025-01-10T02:57:25.179Z [INFO]: 2357
+2025-01-10T02:57:29.552Z [INFO]: 200
+2025-01-10T02:59:37.563Z [INFO]: 2357
+2025-01-10T02:59:41.613Z [INFO]: 200
+2025-01-10T03:01:20.035Z [INFO]: 2357
+2025-01-10T03:01:20.963Z [INFO]: 200
+2025-01-10T03:03:24.924Z [INFO]: 2357
+2025-01-10T03:03:25.883Z [INFO]: undefined
+2025-01-10T03:03:58.306Z [INFO]: 2357
+2025-01-10T03:04:02.642Z [INFO]: undefined
+2025-01-10T03:05:58.857Z [INFO]: 2357
+2025-01-10T03:06:06.663Z [INFO]: 200
+2025-01-10T03:08:41.257Z [INFO]: 2357
+2025-01-10T03:08:48.783Z [INFO]: 200
+2025-01-10T03:25:29.394Z [INFO]: Server started on 2357
+2025-01-10T03:25:40.897Z [INFO]: 200
+2025-01-10T03:26:10.947Z [INFO]: Server started on 2357
+2025-01-10T03:26:13.906Z [INFO]: 200
+2025-01-10T03:26:34.314Z [INFO]: Server started on 2357
+2025-01-10T03:26:38.949Z [INFO]: 200
+2025-01-10T03:27:00.931Z [INFO]: Server started on 2357
+2025-01-10T03:27:03.589Z [INFO]: 200
+2025-01-10T03:28:18.109Z [INFO]: Server started on 2357
+2025-01-10T03:28:23.493Z [INFO]: 200
+2025-01-10T03:28:23.573Z [INFO]: [object Object],[object Object],[object Object]
+2025-01-10T03:29:18.495Z [INFO]: Server started on 2357
+2025-01-10T03:29:20.671Z [INFO]: 200
+2025-01-10T03:29:20.906Z [INFO]: [object Object],[object Object],[object Object]
+2025-01-10T03:29:20.907Z [INFO]: [object Object],[object Object],[object Object]
+2025-01-10T03:31:05.458Z [INFO]: Server started on 2357
+2025-01-10T03:31:11.359Z [INFO]: 200
+2025-01-10T03:31:11.484Z [INFO]: [object Object],[object Object],[object Object]
+2025-01-10T03:31:11.484Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T03:33:07.180Z [INFO]: Server started on 2357
+2025-01-10T03:33:10.065Z [INFO]: 200
+2025-01-10T03:33:10.146Z [INFO]: [object Object],[object Object],[object Object]
+2025-01-10T03:33:10.147Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T03:54:27.902Z [INFO]: Server started on 2357
+2025-01-10T03:56:14.503Z [INFO]: Server started on 2357
+2025-01-10T03:56:38.194Z [INFO]: hit Text Success
+2025-01-10T03:56:38.194Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T03:59:04.007Z [INFO]: hit Text Success
+2025-01-10T03:59:04.008Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T03:59:10.015Z [INFO]: hit Text Success
+2025-01-10T03:59:10.015Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T04:02:31.153Z [INFO]: hit Text Success
+2025-01-10T04:02:31.153Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T04:03:16.056Z [INFO]: hit Text Success
+2025-01-10T04:03:16.056Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T04:03:57.366Z [INFO]: hit Text Success
+2025-01-10T04:03:57.367Z [INFO]: [{"id":1,"name":"Front-End and Back-End Engineer"},{"id":2,"name":"Data Scientist"},{"id":3,"name":"Computer Science Student at Binus Kemanggisan"}]
+2025-01-10T04:06:19.447Z [INFO]: hit Text Success
+2025-01-10T04:06:19.447Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:39:32.465Z [INFO]: hit Text Success
+2025-01-10T04:39:32.467Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:44:00.429Z [INFO]: Server started on 2357
+2025-01-10T04:44:52.375Z [INFO]: hit Text Success
+2025-01-10T04:44:52.377Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:46:10.925Z [INFO]: Server started on 2357
+2025-01-10T04:47:01.890Z [INFO]: Server started on 2357
+2025-01-10T04:47:06.051Z [INFO]: hit abtMe Success
+2025-01-10T04:47:54.052Z [INFO]: Server started on 2357
+2025-01-10T04:47:57.709Z [INFO]: [object Object]
+2025-01-10T04:48:22.471Z [INFO]: Server started on 2357
+2025-01-10T04:48:26.416Z [INFO]: [object Object]
+2025-01-10T04:48:51.594Z [INFO]: Server started on 2357
+2025-01-10T04:49:14.934Z [INFO]: Server started on 2357
+2025-01-10T04:49:17.280Z [INFO]: [object Object]
+2025-01-10T04:50:09.653Z [INFO]: Server started on 2357
+2025-01-10T04:50:11.730Z [INFO]: [object Object]
+2025-01-10T04:50:50.255Z [INFO]: Server started on 2357
+2025-01-10T04:50:55.521Z [INFO]: hit abtMe Success
+2025-01-10T04:54:06.815Z [INFO]: hit Text Success
+2025-01-10T04:54:06.816Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:55:35.364Z [INFO]: hit Text Success
+2025-01-10T04:55:35.364Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:55:41.588Z [INFO]: hit Text Success
+2025-01-10T04:55:41.588Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:55:41.670Z [INFO]: hit Text Success
+2025-01-10T04:55:41.671Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:56:00.363Z [INFO]: hit Text Success
+2025-01-10T04:56:00.363Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:56:00.478Z [INFO]: hit Text Success
+2025-01-10T04:56:00.478Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:56:52.091Z [INFO]: hit abtMe Success
+2025-01-10T04:56:52.166Z [INFO]: hit Text Success
+2025-01-10T04:56:52.166Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:57:27.271Z [INFO]: hit Text Success
+2025-01-10T04:57:27.271Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:57:27.346Z [INFO]: hit abtMe Success
+2025-01-10T04:57:43.469Z [INFO]: hit Text Success
+2025-01-10T04:57:43.469Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T04:57:43.544Z [INFO]: hit abtMe Success
+2025-01-10T05:44:05.355Z [INFO]: Server started on 2357
+2025-01-10T05:44:30.097Z [INFO]: Server started on 2357
+2025-01-10T05:44:37.953Z [INFO]: hit abtMe Success
+2025-01-10T05:44:51.464Z [INFO]: Server started on 2357
+2025-01-10T05:44:58.838Z [INFO]: hit abtMe Success
+2025-01-10T05:47:51.019Z [INFO]: Server started on 2357
+2025-01-10T05:47:56.931Z [INFO]: hit abtMe Success
+2025-01-10T05:48:54.308Z [INFO]: Server started on 2357
+2025-01-10T05:49:01.663Z [INFO]: hit abtMe Success
+2025-01-10T05:49:01.730Z [INFO]: hit profile Success
+2025-01-10T05:50:27.281Z [INFO]: Server started on 2357
+2025-01-10T05:50:31.260Z [INFO]: hit abtMe Success
+2025-01-10T05:50:31.334Z [INFO]: hit profile Success
+2025-01-10T05:50:50.839Z [INFO]: Server started on 2357
+2025-01-10T05:50:53.894Z [INFO]: hit abtMe Success
+2025-01-10T05:50:53.958Z [INFO]: hit profile Success
+2025-01-10T05:51:14.357Z [INFO]: Server started on 2357
+2025-01-10T05:51:22.448Z [INFO]: hit abtMe Success
+2025-01-10T05:51:22.509Z [INFO]: hit profile Success
+2025-01-10T05:51:36.236Z [INFO]: Server started on 2357
+2025-01-10T05:52:21.034Z [INFO]: hit abtMe Success
+2025-01-10T05:52:21.099Z [INFO]: hit profile Success
+2025-01-10T06:02:55.361Z [INFO]: hit Text Success
+2025-01-10T06:02:55.362Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:02:55.421Z [INFO]: hit abtMe Success
+2025-01-10T06:02:55.489Z [INFO]: hit profile Success
+2025-01-10T06:04:29.435Z [INFO]: hit abtMe Success
+2025-01-10T06:04:29.495Z [INFO]: hit profile Success
+2025-01-10T06:05:26.413Z [INFO]: Server started on 2357
+2025-01-10T06:10:00.540Z [INFO]: hit Text Success
+2025-01-10T06:10:00.540Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:10:00.600Z [INFO]: hit abtMe Success
+2025-01-10T06:10:00.663Z [INFO]: hit profile Success
+2025-01-10T06:10:04.000Z [INFO]: hit abtMe Success
+2025-01-10T06:10:04.061Z [INFO]: hit Text Success
+2025-01-10T06:10:04.062Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:10:04.120Z [INFO]: hit profile Success
+2025-01-10T06:10:26.001Z [INFO]: Server started on 2357
+2025-01-10T06:10:33.646Z [INFO]: hit Text Success
+2025-01-10T06:10:33.646Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:10:33.728Z [INFO]: hit abtMe Success
+2025-01-10T06:10:33.792Z [INFO]: hit profile Success
+2025-01-10T06:10:37.808Z [INFO]: hit Text Success
+2025-01-10T06:10:37.808Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:10:37.867Z [INFO]: hit abtMe Success
+2025-01-10T06:10:37.929Z [INFO]: hit profile Success
+2025-01-10T06:12:14.519Z [INFO]: hit Text Success
+2025-01-10T06:12:14.520Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:12:14.580Z [INFO]: hit abtMe Success
+2025-01-10T06:12:14.641Z [INFO]: hit profile Success
+2025-01-10T06:12:29.940Z [INFO]: hit Text Success
+2025-01-10T06:12:29.941Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:12:30.000Z [INFO]: hit abtMe Success
+2025-01-10T06:12:30.061Z [INFO]: hit profile Success
+2025-01-10T06:13:12.167Z [INFO]: hit Text Success
+2025-01-10T06:13:12.167Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:13:12.227Z [INFO]: hit abtMe Success
+2025-01-10T06:13:12.288Z [INFO]: hit profile Success
+2025-01-10T06:14:00.394Z [INFO]: hit Text Success
+2025-01-10T06:14:00.395Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:14:00.455Z [INFO]: hit abtMe Success
+2025-01-10T06:14:00.516Z [INFO]: hit profile Success
+2025-01-10T06:14:57.303Z [INFO]: hit Text Success
+2025-01-10T06:14:57.304Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:14:57.375Z [INFO]: hit abtMe Success
+2025-01-10T06:14:57.445Z [INFO]: hit profile Success
+2025-01-10T06:18:28.166Z [INFO]: hit Text Success
+2025-01-10T06:18:28.166Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:18:28.226Z [INFO]: hit abtMe Success
+2025-01-10T06:18:28.286Z [INFO]: hit profile Success
+2025-01-10T06:19:04.550Z [INFO]: hit Text Success
+2025-01-10T06:19:04.551Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:19:04.610Z [INFO]: hit abtMe Success
+2025-01-10T06:19:04.669Z [INFO]: hit profile Success
+2025-01-10T06:26:09.204Z [INFO]: hit Text Success
+2025-01-10T06:26:09.205Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T06:26:09.269Z [INFO]: hit abtMe Success
+2025-01-10T06:26:09.337Z [INFO]: hit profile Success
+2025-01-10T09:34:11.394Z [ERROR]: read ETIMEDOUT
+2025-01-10T09:34:14.205Z [INFO]: Server started on 2357
+2025-01-10T09:34:21.342Z [INFO]: hit Text Success
+2025-01-10T09:34:21.343Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T09:34:21.444Z [INFO]: hit abtMe Success
+2025-01-10T09:34:21.540Z [INFO]: hit profile Success
+2025-01-10T09:35:14.201Z [INFO]: hit Text Success
+2025-01-10T09:35:14.201Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T09:35:14.262Z [INFO]: hit abtMe Success
+2025-01-10T09:35:14.333Z [INFO]: hit Text Success
+2025-01-10T09:35:14.335Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T09:35:14.412Z [INFO]: hit profile Success
+2025-01-10T09:35:14.479Z [INFO]: hit abtMe Success
+2025-01-10T09:35:14.542Z [INFO]: hit profile Success
+2025-01-10T10:15:37.692Z [INFO]: hit Text Success
+2025-01-10T10:15:37.693Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T10:15:37.751Z [INFO]: hit abtMe Success
+2025-01-10T10:15:37.835Z [INFO]: hit Text Success
+2025-01-10T10:15:37.836Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T10:15:37.897Z [INFO]: hit profile Success
+2025-01-10T10:15:37.970Z [INFO]: hit abtMe Success
+2025-01-10T10:15:38.036Z [INFO]: hit profile Success
+2025-01-10T10:16:46.597Z [INFO]: hit Text Success
+2025-01-10T10:16:46.598Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T10:16:46.667Z [INFO]: hit abtMe Success
+2025-01-10T10:16:46.732Z [INFO]: hit profile Success
+2025-01-10T11:55:06.853Z [ERROR]: read ETIMEDOUT
+2025-01-10T16:22:10.494Z [INFO]: Server started on 2357
+2025-01-10T16:22:16.458Z [INFO]: hit Text Success
+2025-01-10T16:22:16.460Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T16:22:16.517Z [INFO]: hit abtMe Success
+2025-01-10T16:22:16.579Z [INFO]: hit profile Success
+2025-01-10T17:03:29.459Z [INFO]: Server started on 2357
+2025-01-10T17:04:56.247Z [ERROR]: read ETIMEDOUT
+2025-01-10T17:05:41.112Z [INFO]: Server started on 2357
+2025-01-10T17:05:45.929Z [INFO]: hit Text Success
+2025-01-10T17:05:45.929Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T17:05:45.993Z [INFO]: hit abtMe Success
+2025-01-10T17:05:46.057Z [INFO]: hit profile Success
+2025-01-10T17:05:57.604Z [INFO]: hit Text Success
+2025-01-10T17:05:57.604Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T17:05:57.668Z [INFO]: hit abtMe Success
+2025-01-10T17:05:57.733Z [INFO]: hit profile Success
+2025-01-10T17:24:57.038Z [INFO]: hit Text Success
+2025-01-10T17:24:57.040Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T17:24:57.098Z [INFO]: hit abtMe Success
+2025-01-10T17:24:57.162Z [INFO]: hit profile Success
+2025-01-10T17:26:01.574Z [INFO]: hit Text Success
+2025-01-10T17:26:01.574Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T17:26:01.638Z [INFO]: hit abtMe Success
+2025-01-10T17:26:01.701Z [INFO]: hit profile Success
+2025-01-10T17:35:35.149Z [INFO]: hit Text Success
+2025-01-10T17:35:35.150Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-10T17:35:35.212Z [INFO]: hit abtMe Success
+2025-01-10T17:35:35.276Z [INFO]: hit profile Success
+2025-01-10T18:09:55.536Z [ERROR]: read ETIMEDOUT
+2025-01-12T05:51:31.096Z [INFO]: Server started on 2357
+2025-01-12T05:54:11.571Z [INFO]: Server started on 2357
+2025-01-12T05:59:25.297Z [INFO]: Server started on 2357
+2025-01-12T07:13:34.267Z [INFO]: 200
+2025-01-12T07:13:48.509Z [INFO]: Server started on 2357
+2025-01-12T07:13:55.903Z [INFO]: 200
+2025-01-12T07:17:36.258Z [INFO]: Server started on 2357
+2025-01-12T07:17:39.988Z [INFO]: 200
+2025-01-12T07:20:08.823Z [INFO]: Server started on 2357
+2025-01-12T07:20:24.837Z [INFO]: 200
+2025-01-12T07:20:49.157Z [INFO]: Server started on 2357
+2025-01-12T07:20:52.185Z [INFO]: 200
+2025-01-12T07:46:38.304Z [INFO]: Server started on 2357
+2025-01-12T07:50:13.754Z [INFO]: Server started on 2357
+2025-01-12T07:50:16.901Z [INFO]: 200
+2025-01-12T07:50:17.033Z [ERROR]: insertImgProject project.js TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+2025-01-12T07:53:18.439Z [INFO]: Server started on 2357
+2025-01-12T07:53:21.151Z [INFO]: 200
+2025-01-12T07:53:26.709Z [ERROR]: insertProject project.js: Error: connect ETIMEDOUT 209.38.123.69:15009
+2025-01-12T07:53:26.711Z [ERROR]: insertImgProject project.js TypeError: Cannot destructure property 'id' of 'req.body' as it is undefined.
+2025-01-12T07:54:44.498Z [INFO]: Server started on 2357
+2025-01-12T07:55:06.675Z [INFO]: 200
+2025-01-12T07:55:06.808Z [ERROR]: insertImgProject project.js TypeError: Cannot destructure property 'idProject' of 'req.body' as it is undefined.
+2025-01-12T07:55:23.970Z [INFO]: Server started on 2357
+2025-01-12T07:55:25.861Z [INFO]: 200
+2025-01-12T07:55:26.022Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T07:56:18.495Z [INFO]: Server started on 2357
+2025-01-12T07:56:23.236Z [INFO]: 200
+2025-01-12T07:56:23.374Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T07:56:55.877Z [INFO]: Server started on 2357
+2025-01-12T07:57:00.209Z [INFO]: 200
+2025-01-12T07:57:00.348Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T07:57:19.544Z [INFO]: Server started on 2357
+2025-01-12T07:57:21.083Z [INFO]: 200
+2025-01-12T07:57:21.240Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T07:58:11.960Z [INFO]: Server started on 2357
+2025-01-12T07:58:14.358Z [INFO]: 200
+2025-01-12T07:58:14.518Z [ERROR]: insertProject project.js: ReferenceError: hasil is not defined
+2025-01-12T07:58:14.520Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T07:58:28.101Z [INFO]: Server started on 2357
+2025-01-12T07:58:30.387Z [INFO]: 200
+2025-01-12T07:59:52.071Z [INFO]: Server started on 2357
+2025-01-12T07:59:54.444Z [INFO]: 200
+2025-01-12T07:59:54.572Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T08:00:05.778Z [INFO]: Server started on 2357
+2025-01-12T08:00:08.086Z [INFO]: 200
+2025-01-12T10:02:15.089Z [INFO]: Server started on 2357
+2025-01-12T10:02:34.676Z [INFO]: Server started on 2357
+2025-01-12T10:12:14.440Z [INFO]: 200
+2025-01-12T10:12:14.442Z [ERROR]: insertProject project.js: Error: All required fields must be provided!
+2025-01-12T10:12:14.445Z [ERROR]: insertImgProject project.js Error: Both "id" and "url" are required
+2025-01-12T10:13:01.585Z [INFO]: Server started on 2357
+2025-01-12T10:14:35.081Z [INFO]: 200
+2025-01-12T10:14:35.082Z [ERROR]: insertProject project.js: Error: All required fields must be provided!
+2025-01-12T10:14:35.083Z [ERROR]: insertProjectController Error: All required fields must be provided!
+2025-01-12T10:14:53.559Z [INFO]: Server started on 2357
+2025-01-12T10:14:56.288Z [INFO]: 200
+2025-01-12T10:14:56.289Z [ERROR]: insertProject project.js: Error: All required fields must be provided!
+2025-01-12T10:14:56.290Z [ERROR]: insertProjectController Error: All required fields must be provided!
+2025-01-12T10:15:04.539Z [INFO]: 200
+2025-01-12T10:15:04.758Z [ERROR]: insertImgProject project.js Error: Both "idProject" and "idSkills" are required
+2025-01-12T10:15:04.759Z [ERROR]: insertProjectController Error: Error: Both "idProject" and "idSkills" are required
+2025-01-12T10:26:04.239Z [INFO]: 200
+2025-01-12T10:26:23.904Z [INFO]: 200
+2025-01-12T10:26:50.858Z [ERROR]: insertProject project.js: Error: read EHOSTUNREACH
+2025-01-12T10:26:50.859Z [ERROR]: insertProject project.js: Error: read EHOSTUNREACH
+2025-01-12T10:26:50.860Z [ERROR]: insertProjectController Error: read EHOSTUNREACH
+2025-01-12T10:26:50.865Z [ERROR]: insertProjectController Error: read EHOSTUNREACH
+2025-01-12T10:27:34.346Z [INFO]: 200
+2025-01-12T10:27:34.348Z [ERROR]: insertProject project.js: Error: Can't add new command when connection is in closed state
+2025-01-12T10:27:34.348Z [ERROR]: insertProjectController Error: Can't add new command when connection is in closed state
+2025-01-12T10:27:53.191Z [INFO]: Server started on 2357
+2025-01-12T10:27:57.162Z [INFO]: 200
+2025-01-12T10:29:33.360Z [INFO]: Server started on 2357
+2025-01-12T10:29:37.553Z [INFO]: 200
+2025-01-12T10:30:57.098Z [INFO]: Server started on 2357
+2025-01-12T10:30:59.495Z [INFO]: 200
+2025-01-12T10:31:01.317Z [INFO]: connect to checkSkills 1
+2025-01-12T10:31:01.318Z [INFO]: checkSkills 1 found 
+2025-01-12T10:31:01.683Z [INFO]: connect to checkSkills 2
+2025-01-12T10:31:01.683Z [INFO]: checkSkills 2 found 
+2025-01-12T10:31:01.914Z [INFO]: connect to checkSkills 3
+2025-01-12T10:31:01.915Z [INFO]: checkSkills 3 found 
+2025-01-12T10:31:02.130Z [INFO]: connect to checkSkills 5
+2025-01-12T10:31:02.131Z [INFO]: checkSkills 5 found 
+2025-01-12T10:31:02.349Z [INFO]: connect to checkSkills 10
+2025-01-12T10:31:02.349Z [INFO]: checkSkills 10 found 
+2025-01-12T10:31:02.588Z [INFO]: connect to checkSkills 13
+2025-01-12T10:31:02.588Z [INFO]: checkSkills 13 not found
+2025-01-12T10:34:07.281Z [INFO]: Server started on 2357
+2025-01-12T10:34:10.495Z [INFO]: 200
+2025-01-12T10:34:12.023Z [INFO]: connect to checkSkills 1
+2025-01-12T10:34:12.023Z [INFO]: checkSkills 1 found 
+2025-01-12T10:34:12.481Z [INFO]: connect to checkSkills 2
+2025-01-12T10:34:12.482Z [INFO]: checkSkills 2 found 
+2025-01-12T10:34:12.743Z [INFO]: connect to checkSkills 3
+2025-01-12T10:34:12.743Z [INFO]: checkSkills 3 found 
+2025-01-12T10:34:13.017Z [INFO]: connect to checkSkills 5
+2025-01-12T10:34:13.017Z [INFO]: checkSkills 5 found 
+2025-01-12T10:34:13.304Z [INFO]: connect to checkSkills 10
+2025-01-12T10:34:13.304Z [INFO]: checkSkills 10 found 
+2025-01-12T10:34:13.560Z [INFO]: connect to checkSkills 13
+2025-01-12T10:34:13.561Z [INFO]: checkSkills 13 not found
+2025-01-12T10:35:20.362Z [INFO]: Server started on 2357
+2025-01-12T10:35:23.590Z [INFO]: 200
+2025-01-12T10:35:24.554Z [INFO]: connect to checkSkills 1
+2025-01-12T10:35:24.555Z [INFO]: checkSkills 1 found 
+2025-01-12T10:35:24.897Z [INFO]: connect to checkSkills 2
+2025-01-12T10:35:24.897Z [INFO]: checkSkills 2 found 
+2025-01-12T10:35:25.102Z [INFO]: connect to checkSkills 3
+2025-01-12T10:35:25.102Z [INFO]: checkSkills 3 found 
+2025-01-12T10:35:25.317Z [INFO]: connect to checkSkills 5
+2025-01-12T10:35:25.318Z [INFO]: checkSkills 5 found 
+2025-01-12T10:35:25.517Z [INFO]: connect to checkSkills 10
+2025-01-12T10:35:25.518Z [INFO]: checkSkills 10 found 
+2025-01-12T10:35:25.710Z [INFO]: connect to checkSkills 13
+2025-01-12T10:35:25.710Z [INFO]: checkSkills 13 not found
+2025-01-12T10:35:25.831Z [INFO]: connect to checkSkills 200
+2025-01-12T10:35:25.831Z [INFO]: checkSkills 200 not found
+2025-01-12T10:44:00.692Z [INFO]: Server started on 2357
+2025-01-12T10:44:03.256Z [INFO]: 200
+2025-01-12T10:44:04.265Z [INFO]: connect to checkSkills 12
+2025-01-12T10:44:04.265Z [INFO]: checkSkills 12 found 
+2025-01-12T11:32:57.277Z [INFO]: Server started on 2357
+2025-01-12T11:33:16.484Z [INFO]: Server started on 2357
+2025-01-12T11:33:19.235Z [INFO]: hit profile Success
+2025-01-12T11:33:47.849Z [INFO]: Server started on 2357
+2025-01-12T11:33:53.437Z [INFO]: hit profile Success
+2025-01-12T11:34:27.579Z [INFO]: Server started on 2357
+2025-01-12T11:34:29.704Z [INFO]: hit profile Success
+2025-01-12T11:35:08.603Z [INFO]: Server started on 2357
+2025-01-12T11:35:10.225Z [INFO]: hit profile Success
+2025-01-12T11:35:22.075Z [INFO]: Server started on 2357
+2025-01-12T11:35:24.790Z [INFO]: hit profile Success
+2025-01-12T11:35:41.045Z [INFO]: Server started on 2357
+2025-01-12T11:35:42.117Z [INFO]: hit profile Success
+2025-01-12T11:38:08.446Z [INFO]: Server started on 2357
+2025-01-12T11:38:10.857Z [INFO]: hit profile Success
+2025-01-12T11:41:41.289Z [INFO]: Server started on 2357
+2025-01-12T11:41:45.239Z [INFO]: hit profile Success
+2025-01-12T11:41:45.395Z [INFO]: hit getProjectSkills Success
+2025-01-12T11:41:45.577Z [INFO]: hit getProjectImages Success
+2025-01-12T11:42:16.397Z [INFO]: Server started on 2357
+2025-01-12T11:42:22.718Z [INFO]: hit profile Success
+2025-01-12T11:42:22.782Z [INFO]: hit getProjectSkills Success
+2025-01-12T11:42:22.851Z [INFO]: hit getProjectImages Success
+2025-01-12T11:43:34.425Z [INFO]: Server started on 2357
+2025-01-12T11:43:36.960Z [INFO]: hit profile Success
+2025-01-12T11:43:37.049Z [INFO]: hit getProjectSkills Success
+2025-01-12T11:43:37.111Z [INFO]: hit getProjectImages Success
+2025-01-12T11:43:58.352Z [INFO]: Server started on 2357
+2025-01-12T11:44:01.209Z [INFO]: hit profile Success
+2025-01-12T11:44:01.277Z [INFO]: hit getProjectSkills Success
+2025-01-12T11:44:01.340Z [INFO]: hit getProjectImages Success
+2025-01-12T11:50:35.417Z [INFO]: Server started on 2357
+2025-01-12T11:50:39.178Z [INFO]: hit profile Success
+2025-01-12T11:50:39.245Z [INFO]: hit getProjectSkills Success
+2025-01-12T11:50:39.317Z [INFO]: hit getProjectImages Success
+2025-01-12T11:59:12.692Z [INFO]: hit Text Success
+2025-01-12T11:59:12.694Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T11:59:13.432Z [INFO]: hit abtMe Success
+2025-01-12T11:59:13.584Z [INFO]: hit profile Success
+2025-01-12T12:00:30.952Z [INFO]: hit Text Success
+2025-01-12T12:00:30.953Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T12:00:31.116Z [INFO]: hit abtMe Success
+2025-01-12T12:00:31.192Z [INFO]: hit Text Success
+2025-01-12T12:00:31.192Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T12:00:31.249Z [INFO]: hit profile Success
+2025-01-12T12:00:31.309Z [INFO]: hit abtMe Success
+2025-01-12T12:00:31.367Z [INFO]: hit profile Success
+2025-01-12T12:01:40.396Z [INFO]: hit profile Success
+2025-01-12T12:01:40.462Z [INFO]: hit getProjectSkills Success
+2025-01-12T12:01:40.539Z [INFO]: hit getProjectImages Success
+2025-01-12T12:04:40.336Z [INFO]: hit profile Success
+2025-01-12T12:04:40.396Z [INFO]: hit getProjectSkills Success
+2025-01-12T12:04:40.972Z [INFO]: hit getProjectImages Success
+2025-01-12T12:05:07.805Z [INFO]: hit profile Success
+2025-01-12T12:05:07.870Z [INFO]: hit getProjectSkills Success
+2025-01-12T12:05:07.928Z [INFO]: hit getProjectImages Success
+2025-01-12T12:05:16.207Z [INFO]: hit profile Success
+2025-01-12T12:05:16.270Z [INFO]: hit getProjectSkills Success
+2025-01-12T12:05:16.328Z [INFO]: hit getProjectImages Success
+2025-01-12T12:05:25.284Z [INFO]: hit profile Success
+2025-01-12T12:05:25.342Z [INFO]: hit getProjectSkills Success
+2025-01-12T12:05:25.399Z [INFO]: hit getProjectImages Success
+2025-01-12T12:34:32.798Z [INFO]: hit Text Success
+2025-01-12T12:34:32.798Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T12:34:32.856Z [INFO]: hit abtMe Success
+2025-01-12T12:34:32.917Z [INFO]: hit Text Success
+2025-01-12T12:34:32.918Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T12:34:32.983Z [INFO]: hit profile Success
+2025-01-12T12:34:33.041Z [INFO]: hit abtMe Success
+2025-01-12T12:34:33.099Z [INFO]: hit profile Success
+2025-01-12T12:34:50.230Z [INFO]: hit abtMe Success
+2025-01-12T12:34:50.290Z [INFO]: hit Text Success
+2025-01-12T12:34:50.290Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
+2025-01-12T12:34:50.349Z [INFO]: hit profile Success
+2025-01-13T02:06:12.438Z [INFO]: Server started on 3000
+2025-01-13T02:07:24.347Z [INFO]: Server started on 3000
+2025-01-13T02:08:21.731Z [INFO]: Server started on 3000
+2025-01-13T02:08:39.740Z [INFO]: hit profile Success
+2025-01-13T02:08:39.815Z [INFO]: hit getProjectSkills Success
+2025-01-13T02:08:39.900Z [INFO]: hit getProjectImages Success
