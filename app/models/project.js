@@ -1,15 +1,12 @@
 const db = require('./index'); 
 const skillsModel = require('./skills.js');
-// const logger2 = require('../config/logger');
 
 
 async function getAll() {
     try {
         const [rows] = await db.promise().query('SELECT * FROM project');
-        // logger2.info('hit profile Success');
         return rows; 
     } catch (error) {
-        // logger2.error(`getAll project.js ${error}`);
         throw new Error(error);
     }
 }
@@ -18,10 +15,8 @@ async function getProjectSkills(id)
 {
     try {
         const [rows] = await db.promise().query('SELECT * FROM skillsProject WHERE idProject = ?', [id]);
-        // logger2.info('hit getProjectSkills Success');
         return rows; 
     } catch (error) {
-        // logger2.error(`getProjectSkills() project.js ${error}`);
         throw new Error(error)
     }
 }
@@ -30,10 +25,8 @@ async function getProjectImages(id)
 {
     try {
         const [rows] = await db.promise().query('SELECT * FROM imgProject WHERE idProject = ?', [id]);
-        // logger2.info('hit getProjectImages Success');
         return rows; 
     } catch (error) {
-        // logger2.error(`getProjectImages() project.js ${error}`);
         throw new Error(error)
     }
 }
@@ -96,7 +89,6 @@ async function insertProject(req) {
         // return false;
     } catch (error) {
         // Tangani error
-        // logger2.error(`insertProject project.js: ${error}`);
         throw new Error(error)
     }
 }
@@ -127,7 +119,6 @@ async function insertImgProject(req) {
 
         return true;
     } catch (error) {
-        // logger2.error(`insertImgProject project.js ${error}`)
         return false;
     }
 }
@@ -161,7 +152,6 @@ async function insertSkillsProject(req) {
 
         return true;
     } catch (error) {
-        // logger2.error(`insertImgProject project.js ${error}`)
         throw new Error(error)
     }
 }

@@ -2,7 +2,6 @@ const text = require('../models/text');
 const abtme = require('../models/abtme');
 const profile = require('../models/profile');
 const project = require('../models/project');
-// const logger2 = require('../config/logger');
 
 async function insertProject(req, res) {
     const { name, category, project_date, link, desc, url, idSkills } = req.body;
@@ -32,7 +31,6 @@ async function insertProject(req, res) {
             messages: "Project added successfully"  
         });
     } catch (error) {
-        // logger2.error(`insertProjectController ${error}`)
         return res.status(500).json({
             success: false,
             message: "Failed to fetch texts",

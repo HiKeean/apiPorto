@@ -2,7 +2,6 @@ const text = require('../models/text');
 const abtme = require('../models/abtme');
 const profile = require('../models/profile');
 const project = require('../models/project');
-// const logger2 = require('../config/logger');
 
 module.exports = {
     async getProfile() {
@@ -18,7 +17,6 @@ module.exports = {
         try {
             const texts = await text.getAll();
             const jsonTexts = JSON.stringify(texts); 
-            // logger2.info(jsonTexts);  
             return res.status(200).json({
                 success: true,
                 data: JSON.parse(jsonTexts),  

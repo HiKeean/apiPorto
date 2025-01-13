@@ -1,14 +1,11 @@
 const db = require('./index'); // Mengimpor koneksi database dari index.js
-// const logger2 = require('../config/logger');
 
 
 async function getAll() {
     try {
         const [rows] = await db.promise().query('SELECT * FROM skills');
-        // logger2.info('hit skills Success');
         return rows; 
     } catch (error) {
-        // logger2.error(`getAll() skill.js ${error}`);
         throw error;
     }
 }
@@ -17,10 +14,8 @@ async function getProjectSkills(id)
 {
     try {
         const [rows] = await db.promise().query('SELECT * FROM skillsProject WHERE idSkills = ?', [id]);
-        // logger2.info('hit getProjectSkills Success');
         return rows; 
     } catch (error) {
-        // logger2.error(`getProjectSkills() skill.js ${error}`);
         throw error;
     }
 }
@@ -55,17 +50,13 @@ async function checkSkills(id) {
     try {
         // Query untuk mengecek apakah id ada di tabel skills
         const [rows] = await db.promise().query('SELECT * FROM skills WHERE id = ?', [id]);
-        // logger2.info(`connect to checkSkills ${id}`);
         // Jika ada hasil (rows) berarti id valid
         if (rows.length > 0) {
-            // logger2.info(`checkSkills ${id} found `)
             return true;  // id valid
         } else {
-            // logger2.info(`checkSkills ${id} not found`);
             return false; // id tidak ditemukan
         }
     } catch (error) {
-        // logger2.error(`checkSkills ${error}`);
         return false;
     }
 }
