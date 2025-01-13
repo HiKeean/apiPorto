@@ -437,3 +437,6 @@
 2025-01-13T02:08:39.740Z [INFO]: hit profile Success
 2025-01-13T02:08:39.815Z [INFO]: hit getProjectSkills Success
 2025-01-13T02:08:39.900Z [INFO]: hit getProjectImages Success
+2025-01-13T02:45:48.173Z [INFO]: Server started on 3000
+2025-01-13T02:46:02.943Z [INFO]: hit Text Success
+2025-01-13T02:46:02.944Z [INFO]: [{"id":1,"name":"Computer Science Student at Binus Kemanggisan"},{"id":2,"name":"Front-End and Back-End Developer"},{"id":3,"name":"Data Scientist"}]
