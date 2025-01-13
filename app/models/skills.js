@@ -58,7 +58,7 @@ async function getDetailedSkills() {
             const projects = await Promise.all(
                 skillsProjects.map(async (sp) => {
                     const [project] = await db.query(
-                        'SELECT name FROM project WHERE id = ?', 
+                        'SELECT id, name FROM project WHERE id = ?', 
                         [sp.idProject]
                     );
                     return project[0] || null; // Return data proyek atau null jika tidak ditemukan
