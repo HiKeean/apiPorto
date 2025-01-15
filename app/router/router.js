@@ -1,6 +1,7 @@
 const verifyTokenController = require("../api").verifyToken;
 const apiDepanController = require("../api").apiDepan;
 const apiPostController = require("../api").apiPost;
+const apiSatriaController = require("../api").apiSatria;
 
 
 module.exports = function (app) {
@@ -15,5 +16,9 @@ module.exports = function (app) {
 
     app.post('/api/portfolio/insertProject',
       verifyTokenController.verifyToken, apiPostController.insertProject
+    );
+    app.post(
+      '/api/portfolio/insertPicture',
+      verifyTokenController.verifyToken, apiPostController.insertProfilePicture
     );
 }

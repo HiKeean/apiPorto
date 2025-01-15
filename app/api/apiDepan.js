@@ -18,9 +18,15 @@ module.exports = {
         try {
             const texts = await text.getAll();
             const jsonTexts = JSON.stringify(texts); 
+            const img = await profile.getProfileImages();
+
+            const data = {
+                texts,
+                images:img[0][0].pictText
+            }
             return res.status(200).json({
                 success: true,
-                data: JSON.parse(jsonTexts),  
+                data: data,  
             });
         } catch (error) {
             console.error("Error fetching texts:", error);
@@ -37,12 +43,13 @@ module.exports = {
             const abtMe = await abtme.getAbt();
             const profiles = await profile.getAll();
             const pi = {
-                "name" : profiles[0].name,
-                "phone" : profiles[0].phone,
-                "address": profiles[0].address,
-                "email": profiles[0].email,
-                "degree" : profiles[0].degree,
-                "pekerjaan": profiles[0].pekerjaan
+                "name"      : profiles[0].name,
+                "phone"     : profiles[0].phone,
+                "address"   : profiles[0].address,
+                "email"     : profiles[0].email,
+                "degree"    : profiles[0].degree,
+                "pekerjaan" : profiles[0].pekerjaan,
+                "picture"   : profiles[0].pict
             }
             const data = {
                 "abtMe" : abtMe,

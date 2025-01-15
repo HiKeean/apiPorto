@@ -2,6 +2,7 @@ const text = require('../models/text');
 const abtme = require('../models/abtme');
 const profile = require('../models/profile');
 const project = require('../models/project');
+const apiSatria = require('./apiSatria');
 
 async function insertProject(req, res) {
     const { name, category, project_date, link, desc, url, idSkills } = req.body;
@@ -10,7 +11,7 @@ async function insertProject(req, res) {
         return res.status(422).json({
             success: false,
             message: "Failed to fetch texts",
-            error: error.message || error,
+            data: [],
         });
     }
     try {
@@ -39,6 +40,48 @@ async function insertProject(req, res) {
     }
 }
 
+async function insertProfilePicture(req, res)
+{
+    try {
+        url = await apiSatria.uploadPictures(req, res);
+        console.log(url)
+    } catch (error) {
+        
+    }
+    const urls = `https://api.satria-wisata.com/public/assets/images/punyahiz/portfolio/${url}`;
+    const { id } = req.body;
+    let name = '';
+    if (!id) {
+        return res.status(422).json({
+            success : false,
+            message : "Missing Credential",
+            data    : []
+        });
+    }
+    if(id == 1){
+        name = 'pictText'
+    }else{
+        name='pict'
+    }
+    try {
+        const result = await profile.insertProfileImages(urls, name);
+        return res.status(200).json({
+            success: true,
+            messages: "Project added successfully"  
+        });
+    } catch (error) {
+        return res.status(500).json({
+            success : false,
+            message : "Server Internal Error",
+            error   : error
+        });
+    }
+    
+
+}
+
 module.exports = {
-    insertProject
+    insertProject,
+    insertProfilePicture
+    
 }

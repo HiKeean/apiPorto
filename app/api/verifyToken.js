@@ -31,6 +31,7 @@ module.exports = {
                 }
             );
             if (response.status === 200) {
+                req.token = token
                 next();
                 // return res.status(200).send({
                 //     auth: true,
