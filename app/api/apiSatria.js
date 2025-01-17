@@ -70,17 +70,12 @@ async function login(req, res){
             }
         );
         if (response.status === 200) {
-            const temptoken = response.data.token;
             const token = btoa(`Bearer ${response.data.token}`);
-            const payloadBase64 = temptoken.split('.')[1]; // Bagian tengah adalah payload
-            const decodedPayload = Buffer.from(payloadBase64, 'base64').toString('utf-8');
-            const payload = JSON.parse(decodedPayload);
-            const userId = payload.sub;
-            // const data = {
-            //     token : token,
-            //     expires_in: response.data.expires_in
-            // }
-            // return res.status(200).send(responseRequest.requestTrue(true, "Login Berhasil", data))
+            const data = {
+                token : token,
+                expires_in: response.data.expires_in
+            }
+            return res.status(200).send(responseRequest.requestTrue(true, "Login Berhasil", data))
         } else {
             throw new Error("error fetch")
         }
