@@ -3,6 +3,8 @@ const abtme = require('../models/abtme');
 const profile = require('../models/profile');
 const project = require('../models/project');
 const apiSatria = require('./apiSatria');
+require('dotenv').config();
+
 
 async function insertProject(req, res) {
     const { name, category, project_date, link, desc, url, idSkills } = req.body;
@@ -44,11 +46,11 @@ async function insertProfilePicture(req, res)
 {
     try {
         url = await apiSatria.uploadPictures(req, res);
-        console.log(url)
+        console.log(url);
     } catch (error) {
         
     }
-    const urls = `https://api.satria-wisata.com/public/assets/images/punyahiz/portfolio/${url}`;
+    const urls = `${process.env.URL_PICTURE}/public/assets/images/punyahiz/portfolio/${url}`;
     const { id } = req.body;
     let name = '';
     if (!id) {
@@ -67,7 +69,10 @@ async function insertProfilePicture(req, res)
         const result = await profile.insertProfileImages(urls, name);
         return res.status(200).json({
             success: true,
-            messages: "Project added successfully"  
+            messages: "Project added successfully" ,
+            data: {
+                pictText: urls
+            } 
         });
     } catch (error) {
         return res.status(500).json({

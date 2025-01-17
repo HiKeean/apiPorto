@@ -1,4 +1,7 @@
 const axios = require('axios');
+require('dotenv').config();
+const responseRequest = require("../response/response");
+
 
 async function uploadPictures(req, res) {
     let tokenHeader = req.token;
@@ -18,7 +21,7 @@ async function uploadPictures(req, res) {
     }
     try{
         const response = await axios.post(
-            'https://api.satria-wisata.com/api/adminSA/uploadImg',
+            `${process.env.URL_SATRIA}/adminSA/uploadImg`,
             {
                 name: name,
                 image: images
@@ -45,7 +48,82 @@ async function uploadPictures(req, res) {
     }
 }
 
+async function login(req, res){
+    try {
+        const { email, password } = req.body;
+        if (!email || !password) {
+            throw new Error('Login Password Required');
+        }
+        const response = await axios.post(
+            `${process.env.URL_SATRIA}/auth/login`,
+            {
+                RequestParameter : {
+                    email : email,
+                    password : password
+                },
+                SecretKey : process.env.SECRET_KEY_LOGIN,
+                APPS : 3
+            }, 
+            {
+                headers: {},
+                timeout: 10000, // Timeout opsional
+            }
+        );
+        if (response.status === 200) {
+            const temptoken = response.data.token;
+            const token = btoa(`Bearer ${response.data.token}`);
+            const payloadBase64 = temptoken.split('.')[1]; // Bagian tengah adalah payload
+            const decodedPayload = Buffer.from(payloadBase64, 'base64').toString('utf-8');
+            const payload = JSON.parse(decodedPayload);
+            const userId = payload.sub;
+            // const data = {
+            //     token : token,
+            //     expires_in: response.data.expires_in
+            // }
+            // return res.status(200).send(responseRequest.requestTrue(true, "Login Berhasil", data))
+        } else {
+            throw new Error("error fetch")
+        }
+
+    } catch (error) {
+        console.log(error)
+        return res.status(422).send({
+            success: false,
+            message: "DB Fetch Error",
+            errors: error
+        });
+    }
+}
+
+async function logout(req, res){
+    try {
+        let tokenHeader = req.token;
+        const response = await axios.post(
+            `${process.env.URL_SATRIA}/auth/logout`,
+            {
+            },
+            {
+                headers: { Authorization: `Bearer ${tokenHeader}` },
+                timeout: 10000, // Timeout opsional
+            }
+        );
+        if (response.status === 200) {
+            return res.status(200).send(responseRequest.requestTrue(true, "Logout Berhasil", {}))
+        } else {
+            return res.status(422).send({
+                success: false,
+                message: "DB Fetch Error",
+                errors: response.data
+            });
+        }
+        
+    } catch (error) {
+        return res.status(500).send(responseRequest.requestError(false, "Internal Server Error", error));
+    }
+}
 
 module.exports = {
     uploadPictures,
+    login,
+    logout
 }

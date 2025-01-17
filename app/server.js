@@ -2,6 +2,8 @@ require('dotenv').config();
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const db = require('./models/index.js');
+const waRouter = require('./router/waRouter.js')
+const authRouter = require('./router/authRouter.js')
 
 const app = express();
 
@@ -28,6 +30,7 @@ app.use((req, res, next) => {
 
 // Route Handling
 require('./router/router.js')(app);
+
 
 // Start the server directly
 app.listen(port, () => {
