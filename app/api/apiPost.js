@@ -7,7 +7,7 @@ require('dotenv').config();
 
 
 async function insertProject(req, res) {
-    const { name, category, project_date, link, desc, url, idSkills } = req.body;
+    const { name, category, project_date, link, desc, url, idSkills, text } = req.body;
     // Validasi input (opsional)
     if (!name || !category || !project_date || !desc || !url || !idSkills) {
         return res.status(422).json({

@@ -71,7 +71,7 @@ async function getAllProject() {
 
 async function insertProject(req) {
     try {
-        const { name, category, project_date, link, desc } = req.body;
+        const { name, category, project_date, link, desc, text } = req.body;
 
         // Validasi input (opsional)
         if (!name || !category || !project_date || !desc) {
@@ -80,12 +80,12 @@ async function insertProject(req) {
 
         // Query untuk memasukkan data
         const query = `
-            INSERT INTO project (name, category, project_date, link, \`desc\`, created_at)
-            VALUES (?, ?, ?, ?, ?, CONVERT_TZ(NOW(), @@global.time_zone, 'Asia/Jakarta'))
+            INSERT INTO project (name, category, project_date, link, text, \`desc\`, created_at)
+            VALUES (?, ?, ?, ?, ?, ?, CONVERT_TZ(NOW(), @@global.time_zone, 'Asia/Jakarta'))
         `;
 
         // Eksekusi query dengan parameter
-        const [result] = await db.execute(query, [name, category, project_date, link, desc]);
+        const [result] = await db.execute(query, [name, category, project_date, link, text, desc]);
         return result;
         // return false;
     } catch (error) {
